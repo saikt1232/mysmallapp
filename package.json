@@ -15,14 +15,15 @@
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
-    "karma-jasmine": "^0.3.6",
-    "body-parser": "latest"
+    "karma-jasmine": "^0.3.6"
+
 
   },
   "dependencies": {
     "bower": "^1.7.7",
     "express": "4.13.3",
-    "orchestrate": "^0.7.0"
+    "orchestrate": "^0.7.0",
+    "body-parser": "1.14.2"
   },
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install"
