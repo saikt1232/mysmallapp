@@ -6,7 +6,7 @@ app.controller('contactsController', function ($scope, $http) {
 
     var dataRefresh = function () {
         $http.get('/contactsList').success(function (response) {
-            $scope.contactList = response;
+            $scope.contactList = response.results;
         });
 
         $scope.contact = {};

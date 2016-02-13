@@ -26,10 +26,10 @@
         </thead>
         <tbody>
         <tr ng-repeat="contact in contactList">
-            <td>{{contact.name}}</td>
-            <td>{{contact.email}}</td>
-            <td>{{contact.phone}}</td>
-            <td><button type="button" class="btn btn-danger" ng-click="deleteContact(contact._id)">delete</button> </td>
+            <td>{{contact.value.name}}</td>
+            <td>{{contact.value.email}}</td>
+            <td>{{contact.value.phone}}</td>
+            <td><button type="button" class="btn btn-danger" ng-click="deleteContact(contact.path.key)">delete</button> </td>
         </tr>
         </tbody>
     </table>
