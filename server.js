@@ -46,7 +46,6 @@ app.delete('/contactsList:id',function(req,res){
 
 });
 
+app.listen(process.env.PORT||5000);
 
-
-app.listen(3000);
 
